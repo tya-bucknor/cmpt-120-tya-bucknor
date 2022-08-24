@@ -1,0 +1,18 @@
+version: 2.1
+orbs:
+  python: circleci/python@2.0.3
+jobs:
+  test_the_code:
+    executor: python/default
+    steps:
+      - checkout #
+      - python/install-packages:
+          pkg-manager: pip
+      - run:
+          name: Run tests
+          command: python3 -m robot assignments/assignment-1/test.robot
+
+workflows:
+  test:
+    jobs:
+      - test_the_code
