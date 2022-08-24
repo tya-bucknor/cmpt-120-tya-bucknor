@@ -12,3 +12,15 @@
 
 # The codeowner configuration file
 CODEOWNERS                @kevtr0n
+
+# Git configuration files
+.gitignore                @kevtr0n
+
+# The README file
+README.md                 @kevtr0n
+
+# The test runner script
+runtests.py               @kevtr0n
+
+# The python package requirements file
+requirements.txt          @kevtr0n
