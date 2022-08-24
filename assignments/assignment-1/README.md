@@ -17,9 +17,9 @@
   - `gh auth <options>`
   - `gh repo <options>`
 
-___
+---
 
-**NOTE**: *At any time you are uncertain, ask for help rather than attempting to continue. I don't expect you to understand most of this stuff, but it is important for you to have this environment setup for ease of learning.*
+**NOTE**: _At any time you are uncertain, ask for help rather than attempting to continue. I don't expect you to understand most of this stuff, but it is important for you to have this environment setup for ease of learning._
 
 ## Setup
 
@@ -32,6 +32,7 @@ Download and install the latest version of Visual Studio Code [here](https://cod
 - Python Environment Manager
 - Robot Framework Language Server
 - Code Runner
+- Open in Browser
 
 ### Python Environment Setup
 
