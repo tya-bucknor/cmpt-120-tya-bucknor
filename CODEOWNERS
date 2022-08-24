@@ -16,8 +16,8 @@ CODEOWNERS                @kevtr0n
 # Git configuration files
 .gitignore                @kevtr0n
 
-# The README file
-README.md                 @kevtr0n
+# Any markdown files
+*.md                 @kevtr0n
 
 # The test runner script
 runtests.py               @kevtr0n

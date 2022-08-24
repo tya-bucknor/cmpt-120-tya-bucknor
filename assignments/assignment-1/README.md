@@ -2,20 +2,20 @@
 
 ## Skills Acquired/Reinforced Upon Completion
 
-- Install Git/VCS
-- Launch Git bash/Windows Command Prompt/bash shell
-- Install Python3
-- Create Python module
-- Enter some Git commands:
-  - `git config <options>`
-  - `git clone <options>`
-  - `git pull <options>`
-  - `git add <options>`
-  - `git commit <options>`
-  - `git push <options>`
-- Enter some gh CLI commands
-  - `gh auth <options>`
-  - `gh repo <options>`
+- [ ] Install Git/VCS
+- [ ] Launch Git bash/Windows Command Prompt/bash shell
+- [ ] Install Python3
+- [ ] Create Python module
+- [ ] Enter some Git commands:
+  - [ ] `git config <options>`
+  - [ ] `git clone <options>`
+  - [ ] `git pull <options>`
+  - [ ] `git add <options>`
+  - [ ] `git commit <options>`
+  - [ ] `git push <options>`
+- [ ] Enter some gh CLI commands
+  - [ ] `gh auth <options>`
+  - [ ] `gh repo <options>`
 
 ---
 
@@ -27,16 +27,16 @@
 
 Download and install the latest version of Visual Studio Code [here](https://code.visualstudio.com/). After the editor has finished installing; launch the program. Install the following plugins by pressing the 4 blocks on the left-hand side of the editor and searching for:
 
-- Python
-- Python Extension Pack
-- Python Environment Manager
-- Robot Framework Language Server
-- Code Runner
-- Open in Browser
+- [ ] Python
+- [ ] Python Extension Pack
+- [ ] Python Environment Manager
+- [ ] Robot Framework Language Server
+- [ ] Code Runner
+- [ ] Open in Browser
 
 ### Python Environment Setup
 
-Download and install the latest version of Python 3 [here](https://www.python.org/downloads/) for you operating system. Python 3 is the language we are going to be using in the course. In order to set up your Python3 environment, follow the instructions **below**.
+Download and install the latest version of Python 3 [here](https://www.python.org/downloads/) for you operating system. Python 3 is the language we are going to be using in the course. In order to set up your Python3 environment, open up your command shell/command prompt/Git bash in the project directory and follow the instructions **below**.
 
 ```sh
 # Create a virtual environment the in project directory.
