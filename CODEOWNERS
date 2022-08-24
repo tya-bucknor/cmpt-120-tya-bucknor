@@ -1,0 +1,14 @@
+# CircleCI configuration files
+/.circleci/               @kevtr0n
+
+# Static assets
+/static/                  @kevtr0n
+
+# Static images
+/static/images/*          @kevtr0n
+
+# All robot framework test scripts
+*.robot                   @kevtr0n
+
+# The codeowner configuration file
+CODEOWNERS                @kevtr0n
