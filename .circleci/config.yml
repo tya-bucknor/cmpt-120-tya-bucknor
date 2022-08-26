@@ -10,7 +10,7 @@ jobs:
           pkg-manager: pip
       - run:
           name: Run tests
-          command: python3 -m robot assignments/assignment-1/test.robot
+          command: python3 -m pytest
 
 workflows:
   test:
