@@ -19,7 +19,6 @@ class EmailStore:
         @return the email that was added.
         '''
         email = None
-        # TODO if either first_name or last_name is None raise an exception
         if first_name == None or last_name == None:
             raise Exception("Error, first or last name is none")
         else:
@@ -39,7 +38,6 @@ class EmailStore:
         '''
         Method that removes an email from the store.
         '''
-        # TODO if email doesn't exist, raise an exception.
         if email not in self.emails:
             raise Exception("Email does not exist")
         else:
