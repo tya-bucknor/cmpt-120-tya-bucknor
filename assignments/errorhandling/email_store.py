@@ -4,9 +4,6 @@ from genericpath import exists
 class EmailStore:
 
     def __init__(self):
-        '''
-        Constructor method.
-        '''
         self.emails = []
 
     def exists(self, email):
@@ -23,14 +20,19 @@ class EmailStore:
         '''
         email = None
         # TODO if either first_name or last_name is None raise an exception
-            if first_name != :
-                print("Error,")
-            else:
-                
-        # TODO use a while loop to construct email from first_name and last_name and check if it exists.
-        # TODO if generated email exists, increment count.
-        # TODO if generated email doesn't exist, add it to the collection of emails (self.emails).
-        self.emails.append(email)
+        if first_name == None or last_name == None:
+            raise Exception("Error, first or last name is none")
+        else:
+            count = 1
+            while True:
+                email = f"{first_name}.{last_name}{count}@marist.edu"
+                if self.exists (email):
+                    count += 1
+                    continue
+                else:
+                    self.emails.append(email)
+                    break
+
         return email
 
     def remove(self, email):
@@ -38,4 +40,7 @@ class EmailStore:
         Method that removes an email from the store.
         '''
         # TODO if email doesn't exist, raise an exception.
-        self.emails.remove(email)
+        if email not in self.emails:
+            raise Exception("Email does not exist")
+        else:
+            self.emails.remove(email)
